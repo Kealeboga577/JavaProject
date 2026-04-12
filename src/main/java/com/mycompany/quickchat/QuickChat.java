@@ -81,16 +81,11 @@ class Login{
      loginUserName=scanner.nextLine();
      System.out.println("Please enter a Password");
      loginUserPassword=scanner.nextLine();
+     System.out.println("WELCOME BACK");
         return true;
-     
-     
-     }
-    
-    
-    }
+      }
 
-
-
+}
 
 public class QuickChat {
 
@@ -98,7 +93,7 @@ public class QuickChat {
     Login c = new Login();
     if(c.registeruser()){
     c.login();
-    System.out.println("WELCOME BACK");
+    
     }else{
         System.out.println("Registration failed. Login failed");
     }
